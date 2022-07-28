@@ -1,0 +1,59 @@
+/* google font link  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* common styles  */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #E8E8E8;
+}
+
+/*------ slider section style ------ */
+
+.top-banner {
+    margin-top: 1em;
+  }
+  .carousel-caption{
+    bottom: 50%;
+  }
+  .carousel-caption h1 {
+    font-size: 2em;
+    text-shadow: 5px 5px 10px #1b1b1b;
+  }
+
+  
+  .carousel-item img {
+    object-fit: cover;
+    min-height: 100vh;
+  }
+
+.btn-banner {
+    background: #289BDE;
+    border: none;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+@media only screen and (max-width:575px) {
+    .carousel-caption{
+        height: 40px;
+        width: 100%;
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+} 
+@media only screen and (min-width:576px) {
+    .carousel-caption{
+        width: 100%;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+}
+
+
