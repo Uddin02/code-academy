@@ -48,8 +48,16 @@ body {
 
 /* Courses section style  */
 
-@media only screen and (max-width:1024px){
+@media only screen and (max-width:1080px){
     .card {
         max-width: 100% !important;
+    }
+}
+
+/* student section  */
+
+@media only screen and (max-width:1080px){
+    .student-card {
+        max-width: 100%;
     }
 }
